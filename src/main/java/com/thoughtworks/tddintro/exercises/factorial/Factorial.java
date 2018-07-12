@@ -8,9 +8,6 @@ public class Factorial {
         else if (i == 0){
             return 1;
         }
-        else if (i <= 2){
-            return i;
-        }
         else {
             Integer factorial = i;
             for (Integer j = i - 1; j > 0; j--){
