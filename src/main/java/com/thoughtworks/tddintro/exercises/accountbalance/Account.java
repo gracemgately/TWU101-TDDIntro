@@ -6,4 +6,10 @@ public class Account {
     public void deposit(Integer amount){
         balance += amount;
     }
+
+    public void withdraw(Integer amount){
+        if (balance - amount > 0){
+            balance -= amount;
+        }
+    }
 }
